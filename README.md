@@ -11,7 +11,7 @@ O site tem como proposta educacional mostrar, de forma prática e acessível, o 
 - Estimular a conscientização sobre o uso racional da água
 - Demonstrar, na prática, como hábitos simples impactam o consumo total
 - Oferecer dicas acessíveis de economia de água no dia a dia
-- Aplicar conceitos de HTML e CSS no desenvolvimento de um site com múltiplas páginas
+- Aplicar conceitos de HTML e CSS no desenvolvimento de um site com múltiplas páginas.
 
 ## Estrutura do site
 
