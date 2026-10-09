@@ -40,3 +40,7 @@ Projeto desenvolvido como trabalho acadêmico, com fins educacionais, sobre cons
 ## Status do projeto
 
 Em desenvolvimento — novas páginas e funcionalidades (como a interatividade completa da calculadora) ainda estão sendo implementadas.
+
+## Link do projeto rodando
+
+https://u-unicid-eng-s-frontend-2260025-n3-2-2026-nt-cal-production.up.railway.app/index.html
