@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora_de_agua</title>
+    <link rel="stylesheet" href="agua.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Água💧</h1>
+        <h3>Descubra quantos litros de água você gasta com hábitos simples do dia a dia!</h3>
+    </header>
+    
+    <main>
+        <form id="form-calculadora">
+        <div class="campo">
+            <label for="banho">Quantos minutos você fica no banho?</label>
+            <input type="number" id="banho" name="banho" min="2" required>
+        </div>
+
+        <div class="campo">
+            <label for="escovar">Você deixa a torneira aberta ao escovar os dentes?</label>
+            <select id="escovar" name="escovar" required>
+                <option value="0">Não</option>
+                <option value="1">Sim</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="louca">Voce costuma a deixa a torneira aberta quando lava a louça?</label>
+            <select id="louca" name="louca" required>
+                <option value="0">Não</option>
+                <option value="1">Sim</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label for="roupa">Quantas vezes por semana você lava roupa?</label>
+            <input type="number" id="roupa" name="roupa" min="1" required>
+        </div>
+        <button type="submit">Calcular</button>
+        </form>
+    </main>
+    <footer>
+        <p>Projeto educacional sobre consumo consciente de água 🌱</p>
+    </footer>
+    <script src="agua.js"></script>
+</body>
+</html>

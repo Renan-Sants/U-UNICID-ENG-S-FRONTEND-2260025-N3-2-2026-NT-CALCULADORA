@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.box{
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.015);
+    transition: transform 0.3s, border-color;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    border-color: darkcyan;
+    transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header{
+    color: darkcyan;
+    font-size: 1rem;
+}
