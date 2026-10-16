@@ -39,7 +39,7 @@ Projeto desenvolvido como trabalho acadêmico, com fins educacionais, sobre cons
 
 ## Status do projeto
 
-Em desenvolvimento — novas páginas e funcionalidades (como a interatividade completa da calculadora) ainda estão sendo implementadas.
+Em desenvolvimento — novas páginas e funcionalidades (como a interatividade completa da calculadora) ainda estão sendo implementadas..
 
 ## Link do projeto rodando
 
