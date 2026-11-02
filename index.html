@@ -1,65 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Água</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <nav>
-        <div class="box">
-        <a href="index.html" class="ativo">Início</a>
-        </div>
-
-        <div class="box">
-        <a href="sobre.html">Sobre</a>
-        </div>
-
-        <div class="box">
-        <a href="agua.html" target="_blank" rel="noopener noreferrer" class="botao">Calculadora</a>
-        </div>
-
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Projeto educacional sobre consumo consciente de água." name="description"/>
+  <title>
+   Calculadora de Água — Consumo consciente de água
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="index.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="pular" href="#conteudo">
+   Pular para o conteúdo principal
+  </a>
+  <div class="topo">
+   <div class="barra">
+    <a class="marca" href="index.html">
+     💧 Calculadora de Água
+    </a>
+    <nav aria-label="Navegação principal" class="menu">
+     <a aria-current="page" class="ativo" href="index.html">
+      Início
+     </a>
+     <a href="agua.html">
+      Calculadora
+     </a>
+     <a href="dicas.html">
+      Dicas
+     </a>
+     <a href="curiosidades.html">
+      Curiosidades
+     </a>
+     <a href="consumo.html">
+      Consumo
+     </a>
+     <a href="quiz.html">
+      Quiz
+     </a>
+     <a href="sobre.html">
+      Sobre
+     </a>
+     <a href="contato.html">
+      Contato
+     </a>
     </nav>
-    <header>
-        <h1>Calculadora de Água💧</h1>
-        <h3>Descubra quantos litros de água você gasta com hábitos simples do dia a dia.</h3>
-    </header>
-    <main>
-        <div class="caixa">
-            <h3>Bem-vindo à Calculadora de Água!</h3>
-        </div>
-        
-        <div class="caixa">
-            <p>Esta ferramenta permite que você estime o consumo de água com base em seus hábitos diários. Selecione as opções abaixo para ser redirecionado.</p>
-        </div>
-
-        <div class="caixa">
-            <a href="agua.html" target="_blank" rel="noopener noreferrer" class="botao">
-                <button>Ir para a Calculadora</button>
-            </a>
-        </div>
-
-        <div class="caixa">
-            <a href="sobre.html" class="botao">
-                <button>Sobre o site e a equipe</button>
-            </a>
-        </div>
-
-        <div class="caixa">
-            <a href="index.html" class="botao">
-                <button>Voltar para a página inicial</button>
-            </a>
-        </div>
-
-        <div>
-            <a href="https://www.sabesp.com.br/a-sabesp/educacao/dicas-economia-agua" target="_blank" class="botao">
-            <button>Dicas de economia de água</button>
-            </a>
-        </div>
-    </main>
-</body>
-<footer>
-    <p>Projeto educacional sobre consumo consciente de água 🌱</p>
-</footer>
+    <div aria-label="Ajustes de leitura" class="acessibilidade">
+     <button aria-label="Aumentar tamanho da fonte" id="fonte-mais" type="button">
+      A+
+     </button>
+     <button aria-label="Diminuir tamanho da fonte" id="fonte-menos" type="button">
+      A−
+     </button>
+    </div>
+   </div>
+  </div>
+  <header class="cabecalho">
+   <h1>
+    Consumo consciente de água
+   </h1>
+   <p>
+    Pequenas mudanças podem fazer diferença.
+   </p>
+  </header>
+  <main id="conteudo" tabindex="-1">
+   <section class="cartao destaque">
+    <h2>
+     Bem-vindo!
+    </h2>
+    <p class="chamada">
+     Descubra como hábitos cotidianos influenciam o uso da água. Faça uma simulação, conheça práticas de economia e teste seus conhecimentos.
+    </p>
+    <div class="acoes">
+     <a class="botao" href="agua.html">
+      Começar a calcular
+     </a>
+     <a class="botao" href="dicas.html">
+      Ver dicas
+     </a>
+    </div>
+   </section>
+   <section class="secao">
+    <h2>
+     Explore o projeto
+    </h2>
+    <div class="grade">
+     <article class="cartao">
+      <h3>
+       Calculadora
+      </h3>
+      <p>
+       Estime seu consumo com base nos hábitos informados.
+      </p>
+      <a href="agua.html">
+       Abrir calculadora
+      </a>
+     </article>
+     <article class="cartao">
+      <h3>
+       Consumo
+      </h3>
+      <p>
+       Entenda como interpretar os valores aproximados.
+      </p>
+      <a href="consumo.html">
+       Saiba mais
+      </a>
+     </article>
+     <article class="cartao">
+      <h3>
+       Quiz
+      </h3>
+      <p>
+       Responda perguntas sobre atitudes de economia.
+      </p>
+      <a href="quiz.html">
+       Jogar quiz
+      </a>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div class="interior">
+    <p>
+     Projeto acadêmico de conscientização sobre o uso da água. Valores de consumo são estimativas, não medições.
+    </p>
+   </div>
+  </footer>
+  <script defer="" src="acessibilidade.js">
+  </script>
+ </body>
 </html>

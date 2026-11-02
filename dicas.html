@@ -1,39 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dicas</title>
-    <link rel="stylesheet" href="dicas.css">
-</head>
-<body>
-    <nav>
-        <div class="box">
-            <a href="index.html" class="ativo">Início</a>
-        </div>
-
-        <div class="box">
-            <a href="sobre.html">Sobre</a>
-        </div>
-
-        <div class="box">
-            <a href="agua.html" target="_blank" rel="noopener noreferrer" class="botao">Calculadora</a>    
-        </div>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Projeto educacional sobre consumo consciente de água." name="description"/>
+  <title>
+   Calculadora de Água — Dicas de economia de água
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="dicas.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="pular" href="#conteudo">
+   Pular para o conteúdo principal
+  </a>
+  <div class="topo">
+   <div class="barra">
+    <a class="marca" href="index.html">
+     💧 Calculadora de Água
+    </a>
+    <nav aria-label="Navegação principal" class="menu">
+     <a href="index.html">
+      Início
+     </a>
+     <a href="agua.html">
+      Calculadora
+     </a>
+     <a aria-current="page" class="ativo" href="dicas.html">
+      Dicas
+     </a>
+     <a href="curiosidades.html">
+      Curiosidades
+     </a>
+     <a href="consumo.html">
+      Consumo
+     </a>
+     <a href="quiz.html">
+      Quiz
+     </a>
+     <a href="sobre.html">
+      Sobre
+     </a>
+     <a href="contato.html">
+      Contato
+     </a>
     </nav>
-    <header>
-        <h2>Dicas de Economia de Água</h2>
-        <h3>Pequenas atitudes, grande economia</h3>
-        <h3>Fechar a torneira ao escovar os dentes, tomar banhos mais curtos e reaproveitar a água da máquina de lavar são hábitos simples que fazem toda a diferença. A água é um recurso essencial e finito — cuidar dela hoje garante que ela continue disponível para todos amanhã. Pequenas mudanças na rotina, quando feitas por muitas pessoas, geram um impacto enorme na preservação desse bem tão precioso.</h3>
-        <h3>Separamos uma serie de dicas simples e faceis para ajudar você a fazer sua parte.</h3>
-        <h3><b></b>Confira abaixo!</b></h3>
-    </header>
-    <main>
-        <h2>No banheiro</h2>
-        <h2>Na cozinha</h2>
-        <h2>Na area de serviço</h2>
-        <h2>No jardim e area externa</h2>
-        <h2>Outras dicas</h2>
-    </main>
-    
-</body>
+    <div aria-label="Ajustes de leitura" class="acessibilidade">
+     <button aria-label="Aumentar tamanho da fonte" id="fonte-mais" type="button">
+      A+
+     </button>
+     <button aria-label="Diminuir tamanho da fonte" id="fonte-menos" type="button">
+      A−
+     </button>
+    </div>
+   </div>
+  </div>
+  <header class="cabecalho">
+   <h1>
+    Dicas de economia de água
+   </h1>
+   <p>
+    Atitudes simples para reduzir o desperdício.
+   </p>
+  </header>
+  <main id="conteudo" tabindex="-1">
+   <section class="grade">
+    <article class="cartao dica">
+     <h2>
+      No banheiro
+     </h2>
+     <p>
+      Feche a torneira ao escovar os dentes e reduza o tempo de banho quando possível.
+     </p>
+    </article>
+    <article class="cartao dica">
+     <h2>
+      Na cozinha
+     </h2>
+     <p>
+      Evite deixar a torneira aberta continuamente enquanto ensaboa a louça.
+     </p>
+    </article>
+    <article class="cartao dica">
+     <h2>
+      Na lavanderia
+     </h2>
+     <p>
+      Planeje as lavagens e siga as orientações do fabricante para aproveitar a capacidade da máquina.
+     </p>
+    </article>
+    <article class="cartao dica">
+     <h2>
+      Em áreas externas
+     </h2>
+     <p>
+      Prefira vassoura à mangueira para limpar calçadas e observe possíveis vazamentos.
+     </p>
+    </article>
+   </section>
+   <section class="cartao secao">
+    <h2>
+     Leitura complementar
+    </h2>
+    <p>
+     Consulte orientações de economia de água da
+     <a href="https://www.sabesp.com.br/a-sabesp/educacao/dicas-economia-agua" rel="noopener noreferrer" target="_blank">
+      Sabesp (abre em nova aba)
+     </a>
+     .
+    </p>
+   </section>
+  </main>
+  <footer>
+   <div class="interior">
+    <p>
+     Projeto acadêmico de conscientização sobre o uso da água. Valores de consumo são estimativas, não medições.
+    </p>
+   </div>
+  </footer>
+  <script defer="" src="acessibilidade.js">
+  </script>
+ </body>
 </html>

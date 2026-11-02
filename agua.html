@@ -1,50 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculadora_de_agua</title>
-    <link rel="stylesheet" href="agua.css">
-</head>
-<body>
-    <header>
-        <h1>Calculadora de Água💧</h1>
-        <h3>Descubra quantos litros de água você gasta com hábitos simples do dia a dia</h3>
-    </header>
-    
-    <main>
-        <form id="form-calculadora">
-        <div class="campo">
-            <label for="banho">Quantos minutos você fica no banho?</label>
-            <input type="number" id="banho" name="banho" min="2" required>
-        </div>
-
-        <div class="campo">
-            <label for="escovar">Você deixa a torneira aberta ao escovar os dentes?</label>
-            <select id="escovar" name="escovar" required>
-                <option value="0">Não</option>
-                <option value="1">Sim</option>
-            </select>
-        </div>
-
-        <div class="campo">
-            <label for="louca">Voce costuma a deixa a torneira aberta quando lava a louça?</label>
-            <select id="louca" name="louca" required>
-                <option value="0">Não</option>
-                <option value="1">Sim</option>
-            </select>
-        </div>
-
-        <div class="campo">
-            <label for="roupa">Quantas vezes por semana você lava roupa?</label>
-            <input type="number" id="roupa" name="roupa" min="1" required>
-        </div>
-        <button type="submit">Calcular</button>
-        </form>
-    </main>
-    <footer>
-        <p>Projeto educacional sobre consumo consciente de água 🌱</p>
-    </footer>
-    <script src="agua.js"></script>
-</body>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Projeto educacional sobre consumo consciente de água." name="description"/>
+  <title>
+   Calculadora de Água — Calculadora de Água
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="agua.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="pular" href="#conteudo">
+   Pular para o conteúdo principal
+  </a>
+  <div class="topo">
+   <div class="barra">
+    <a class="marca" href="index.html">
+     💧 Calculadora de Água
+    </a>
+    <nav aria-label="Navegação principal" class="menu">
+     <a href="index.html">
+      Início
+     </a>
+     <a aria-current="page" class="ativo" href="agua.html">
+      Calculadora
+     </a>
+     <a href="dicas.html">
+      Dicas
+     </a>
+     <a href="curiosidades.html">
+      Curiosidades
+     </a>
+     <a href="consumo.html">
+      Consumo
+     </a>
+     <a href="quiz.html">
+      Quiz
+     </a>
+     <a href="sobre.html">
+      Sobre
+     </a>
+     <a href="contato.html">
+      Contato
+     </a>
+    </nav>
+    <div aria-label="Ajustes de leitura" class="acessibilidade">
+     <button aria-label="Aumentar tamanho da fonte" id="fonte-mais" type="button">
+      A+
+     </button>
+     <button aria-label="Diminuir tamanho da fonte" id="fonte-menos" type="button">
+      A−
+     </button>
+    </div>
+   </div>
+  </div>
+  <header class="cabecalho">
+   <h1>
+    Calculadora de Água
+   </h1>
+   <p>
+    Informe seus hábitos para obter uma estimativa.
+   </p>
+  </header>
+  <main id="conteudo" tabindex="-1">
+   <section class="cartao formulario">
+    <h2>
+     Seus hábitos
+    </h2>
+    <form id="form-calculadora">
+     <div class="campo">
+      <label for="banho">
+       Quantos minutos dura um banho típico?
+      </label>
+      <input aria-describedby="ajuda-banho" id="banho" max="240" min="0" name="banho" required="" step="1" type="number"/>
+      <p class="pequeno" id="ajuda-banho">
+       Consideramos um banho por dia e aproximadamente 9 litros por minuto.
+      </p>
+     </div>
+     <div class="campo">
+      <label for="escovar">
+       Você deixa a torneira aberta ao escovar os dentes?
+      </label>
+      <select id="escovar" name="escovar" required="">
+       <option disabled="" selected="" value="">
+        Selecione uma opção
+       </option>
+       <option value="sim">
+        Sim
+       </option>
+       <option value="nao">
+        Não
+       </option>
+      </select>
+     </div>
+     <div class="campo">
+      <label for="louca">
+       Você deixa a torneira aberta ao lavar a louça?
+      </label>
+      <select id="louca" name="louca" required="">
+       <option disabled="" selected="" value="">
+        Selecione uma opção
+       </option>
+       <option value="sim">
+        Sim
+       </option>
+       <option value="nao">
+        Não
+       </option>
+      </select>
+     </div>
+     <div class="campo">
+      <label for="roupa">
+       Quantos ciclos de máquina de lavar você faz por semana?
+      </label>
+      <input id="roupa" max="50" min="0" name="roupa" required="" step="1" type="number"/>
+     </div>
+     <p class="aviso">
+      O cálculo considera 3 escovações e uma lavagem de louça por dia. Os valores são aproximados e variam com equipamentos e hábitos.
+     </p>
+     <p class="erro" id="erro-form" role="alert">
+     </p>
+     <button type="submit">
+      Calcular meu consumo
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer>
+   <div class="interior">
+    <p>
+     Projeto acadêmico de conscientização sobre o uso da água. Valores de consumo são estimativas, não medições.
+    </p>
+   </div>
+  </footer>
+  <script defer="" src="acessibilidade.js">
+  </script>
+  <script defer="" src="agua.js">
+  </script>
+ </body>
 </html>

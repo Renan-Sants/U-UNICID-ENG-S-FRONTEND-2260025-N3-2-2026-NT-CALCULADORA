@@ -1,0 +1,11 @@
+.iniciais {
+    display:inline-flex;
+    background:darkcyan;
+    color:white;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    align-items:center;
+    justify-content:center;
+    font-size:1.5rem
+}

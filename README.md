@@ -1,46 +1,36 @@
-# Calculadora de Água
+# Calculadora de Água — UNICID
 
-Projeto acadêmico desenvolvido com o objetivo de conscientizar sobre o consumo consciente de água, por meio de uma calculadora simples que estima quantos litros são gastos em hábitos do dia a dia.
+Versão completa **para revisão e aprovação do grupo**, baseada no projeto original e na pasta `rule/`. Não foi publicada nem enviada ao repositório.
 
-## Sobre o projeto
+## Executar
 
-O site tem como proposta educacional mostrar, de forma prática e acessível, o impacto de pequenas ações cotidianas (como tomar banho, escovar os dentes ou lavar louça) no consumo total de água de uma pessoa. A partir dos hábitos informados pelo usuário, a calculadora apresenta uma estimativa do gasto hídrico, incentivando a reflexão sobre consumo consciente e sustentabilidade.
+Abra `index.html` no navegador. Para testar com servidor local, no diretório do projeto execute `python -m http.server 8000` e visite `http://localhost:8000`.
 
-## Objetivos
+## Páginas
 
-- Estimular a conscientização sobre o uso racional da água
-- Demonstrar, na prática, como hábitos simples impactam o consumo total
-- Oferecer dicas acessíveis de economia de água no dia a dia
-- Aplicar conceitos de HTML e CSS no desenvolvimento de um site com múltiplas páginas.
+Início, Calculadora, Resultado, Dicas, Sobre, Curiosidades, Consumo, Quiz, Contato e 404.
 
-## Estrutura do site
+## Tecnologias
 
-O site é organizado em diversas páginas interligadas por um menu de navegação fixo no topo:
+HTML5, CSS3 (Flexbox, media queries), JavaScript e localStorage.
 
-| Página | Descrição |
-|---|---|
-| **Início** | Apresentação do projeto e botões de acesso rápido às demais seções |
-| **Sobre** | Informações sobre o site e a equipe responsável |
-| **Calculadora** | Ferramenta para estimar o consumo de água com base nos hábitos informados |
-| **Dicas de economia de água** | Sugestões práticas para reduzir o desperdício |
+## Acessibilidade
 
-## Tecnologias utilizadas
+Idioma pt-BR, landmarks semânticos, um h1 por página, menu com `aria-current`, salto para conteúdo, foco visível, controles de fonte, rótulos e validação nativa dos formulários, atualizações de resultado e quiz anunciadas, layout adaptável e preferência por movimento reduzido.
 
-- **HTML5** — estruturação do conteúdo
-- **CSS3** — estilização visual, layout responsivo (Flexbox) e identidade visual do site
+## Referências
 
-## Identidade visual
+Parâmetros aproximados do cálculo conforme `rule/01-conteudo.md` (referência atribuída à Sabesp pelo grupo). Confira a origem e a adequação dos números antes da publicação. Consulte também [Sabesp](https://www.sabesp.com.br/a-sabesp/educacao/dicas-economia-agua) e [ANA](https://www.gov.br/ana/pt-br).
 
-O projeto utiliza uma paleta de cores inspirada em água e sustentabilidade, com tons de azul e verde-água (*darkcyan*), transmitindo uma sensação de limpeza, natureza e consciência ambiental.
+## Pendências antes da entrega oficial
 
-## Autoria
+- Aprovação individual do conteúdo de cada tela pelo grupo, conforme `rule/05-colaboracao.md`.
+- Confirmar integrantes, funções, fotos/iniciais e perfis para criar os cartões individuais da página Sobre.
+- Configurar serviço de envio caso o formulário de Contato precise enviar mensagens reais.
+- Testar manualmente em navegador, celular, teclado e leitor de tela.
+- Configurar a hospedagem para responder com `404.html` em URLs inexistentes; a presença do arquivo não configura o servidor.
+- Confirmar que o endereço publicado no README original continua correto após o deploy: https://u-unicid-eng-s-frontend-2260025-n3-2-2026-nt-cal-production.up.railway.app/index.html
 
-Projeto desenvolvido como trabalho acadêmico, com fins educacionais, sobre consumo consciente de água.
+## Regras
 
-## Status do projeto
-
-Em desenvolvimento — novas páginas e funcionalidades (como a interatividade completa da calculadora) ainda estão sendo implementadas..
-
-## Link do projeto rodando
-
-https://u-unicid-eng-s-frontend-2260025-n3-2-2026-nt-cal-production.up.railway.app/index.html
+Leia [`rule/README.md`](rule/README.md) antes de editar ou publicar.
