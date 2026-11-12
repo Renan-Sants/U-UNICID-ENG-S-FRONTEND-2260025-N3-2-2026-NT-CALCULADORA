@@ -5,10 +5,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <meta content="Projeto educacional sobre consumo consciente de água." name="description"/>
   <title>
-   Calculadora de Água — Sobre o projeto
+   Calculadora de Água — Resultado da estimativa
   </title>
   <link href="style.css" rel="stylesheet"/>
-  <link href="sobre.css" rel="stylesheet"/>
+  <link href="resultado.css" rel="stylesheet"/>
  </head>
  <body>
   <a class="pular" href="#conteudo">
@@ -16,11 +16,11 @@
   </a>
   <div class="topo">
    <div class="barra">
-    <a class="marca" href="index.html">
+    <a class="marca" href="../index.html">
      💧 Calculadora de Água
     </a>
     <nav aria-label="Navegação principal" class="menu">
-     <a href="index.html">
+     <a href="../index.html">
       Início
      </a>
      <a href="agua.html">
@@ -38,7 +38,7 @@
      <a href="quiz.html">
       Quiz
      </a>
-     <a aria-current="page" class="ativo" href="sobre.html">
+     <a href="sobre.html">
       Sobre
      </a>
      <a href="contato.html">
@@ -57,40 +57,26 @@
   </div>
   <header class="cabecalho">
    <h1>
-    Sobre o projeto
+    Resultado da estimativa
    </h1>
    <p>
-    Conheça o propósito e a organização do trabalho.
+    Veja os valores calculados a partir de suas respostas.
    </p>
   </header>
   <main id="conteudo" tabindex="-1">
-   <section class="cartao">
-    <h2>
-     Nosso objetivo
-    </h2>
-    <p>
-     Este projeto acadêmico da UNICID utiliza HTML, CSS e JavaScript para incentivar a reflexão sobre o uso consciente da água. A calculadora apresenta estimativas e não substitui medições de consumo.
-    </p>
-   </section>
-   <section class="secao">
-    <h2>
-     Equipe do projeto
-    </h2>
-    <p>
-     Os nomes, funções e perfis devem ser confirmados com os integrantes antes da publicação, conforme as regras de colaboração.
-    </p>
-    <div class="grade">
-     <article class="cartao">
-      <span aria-label="Representação da equipe" class="iniciais">
-       EQ
-      </span>
-      <h3>
-       Equipe de desenvolvimento
-      </h3>
-      <p>
-       Projeto coletivo da disciplina de Engenharia Front-End. A identificação individual será inserida após a aprovação do grupo.
-      </p>
-     </article>
+   <section class="cartao resultado-central">
+    <div aria-atomic="true" aria-live="polite" id="resultado">
+     <p>
+      Carregando resultado...
+     </p>
+    </div>
+    <div class="acoes acoes-centro">
+     <a class="botao" href="agua.html">
+      Refazer cálculo
+     </a>
+     <a class="botao" href="dicas.html">
+      Ver dicas de economia
+     </a>
     </div>
    </section>
   </main>
@@ -102,6 +88,8 @@
    </div>
   </footer>
   <script defer="" src="acessibilidade.js">
+  </script>
+  <script defer="" src="resultado.js">
   </script>
  </body>
 </html>

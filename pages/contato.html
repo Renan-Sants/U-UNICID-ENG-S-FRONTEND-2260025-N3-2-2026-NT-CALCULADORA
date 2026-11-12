@@ -5,10 +5,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <meta content="Projeto educacional sobre consumo consciente de água." name="description"/>
   <title>
-   Calculadora de Água — Página não encontrada
+   Calculadora de Água — Contato
   </title>
   <link href="style.css" rel="stylesheet"/>
-  <link href="404.css" rel="stylesheet"/>
+  <link href="contato.css" rel="stylesheet"/>
  </head>
  <body>
   <a class="pular" href="#conteudo">
@@ -16,11 +16,11 @@
   </a>
   <div class="topo">
    <div class="barra">
-    <a class="marca" href="index.html">
+    <a class="marca" href="../index.html">
      💧 Calculadora de Água
     </a>
     <nav aria-label="Navegação principal" class="menu">
-     <a href="index.html">
+     <a href="../index.html">
       Início
      </a>
      <a href="agua.html">
@@ -41,7 +41,7 @@
      <a href="sobre.html">
       Sobre
      </a>
-     <a href="contato.html">
+     <a aria-current="page" class="ativo" href="contato.html">
       Contato
      </a>
     </nav>
@@ -57,24 +57,48 @@
   </div>
   <header class="cabecalho">
    <h1>
-    Página não encontrada
+    Contato
    </h1>
    <p>
-    Não conseguimos encontrar a página solicitada.
+    Envie uma mensagem de forma acessível.
    </p>
   </header>
   <main id="conteudo" tabindex="-1">
-   <section class="cartao erro-pagina">
+   <section class="cartao formulario">
     <h2>
-     Erro 404
+     Fale com a equipe
     </h2>
     <p>
-     O endereço pode estar incorreto ou a página pode ter sido movida.
+     Este formulário é uma demonstração local: não envia mensagens para servidores nem coleta dados remotamente.
     </p>
-    <a class="botao" href="index.html">
-     Voltar ao início
-    </a>
+    <form id="form-contato">
+     <div class="campo">
+      <label for="nome">
+       Nome
+      </label>
+      <input autocomplete="name" id="nome" maxlength="80" name="nome" required=""/>
+     </div>
+     <div class="campo">
+      <label for="email">
+       E-mail
+      </label>
+      <input autocomplete="email" id="email" maxlength="120" name="email" required="" type="email"/>
+     </div>
+     <div class="campo">
+      <label for="mensagem">
+       Mensagem
+      </label>
+      <textarea id="mensagem" maxlength="1500" minlength="10" name="mensagem" required="" rows="5"></textarea>
+     </div>
+     <button type="submit">
+      Validar mensagem
+     </button>
+     <p aria-live="polite" id="retorno-contato" role="status">
+     </p>
+    </form>
    </section>
+   <script defer="" src="contato.js">
+   </script>
   </main>
   <footer>
    <div class="interior">

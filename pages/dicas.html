@@ -5,10 +5,10 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <meta content="Projeto educacional sobre consumo consciente de água." name="description"/>
   <title>
-   Calculadora de Água — Contato
+   Calculadora de Água — Dicas de economia de água
   </title>
   <link href="style.css" rel="stylesheet"/>
-  <link href="contato.css" rel="stylesheet"/>
+  <link href="dicas.css" rel="stylesheet"/>
  </head>
  <body>
   <a class="pular" href="#conteudo">
@@ -16,17 +16,17 @@
   </a>
   <div class="topo">
    <div class="barra">
-    <a class="marca" href="index.html">
+    <a class="marca" href="../index.html">
      💧 Calculadora de Água
     </a>
     <nav aria-label="Navegação principal" class="menu">
-     <a href="index.html">
+     <a href="../index.html">
       Início
      </a>
      <a href="agua.html">
       Calculadora
      </a>
-     <a href="dicas.html">
+     <a aria-current="page" class="ativo" href="dicas.html">
       Dicas
      </a>
      <a href="curiosidades.html">
@@ -41,7 +41,7 @@
      <a href="sobre.html">
       Sobre
      </a>
-     <a aria-current="page" class="ativo" href="contato.html">
+     <a href="contato.html">
       Contato
      </a>
     </nav>
@@ -57,48 +57,59 @@
   </div>
   <header class="cabecalho">
    <h1>
-    Contato
+    Dicas de economia de água
    </h1>
    <p>
-    Envie uma mensagem de forma acessível.
+    Atitudes simples para reduzir o desperdício.
    </p>
   </header>
   <main id="conteudo" tabindex="-1">
-   <section class="cartao formulario">
+   <section class="grade">
+    <article class="cartao dica">
+     <h2>
+      No banheiro
+     </h2>
+     <p>
+      Feche a torneira ao escovar os dentes e reduza o tempo de banho quando possível.
+     </p>
+    </article>
+    <article class="cartao dica">
+     <h2>
+      Na cozinha
+     </h2>
+     <p>
+      Evite deixar a torneira aberta continuamente enquanto ensaboa a louça.
+     </p>
+    </article>
+    <article class="cartao dica">
+     <h2>
+      Na lavanderia
+     </h2>
+     <p>
+      Planeje as lavagens e siga as orientações do fabricante para aproveitar a capacidade da máquina.
+     </p>
+    </article>
+    <article class="cartao dica">
+     <h2>
+      Em áreas externas
+     </h2>
+     <p>
+      Prefira vassoura à mangueira para limpar calçadas e observe possíveis vazamentos.
+     </p>
+    </article>
+   </section>
+   <section class="cartao secao">
     <h2>
-     Fale com a equipe
+     Leitura complementar
     </h2>
     <p>
-     Este formulário é uma demonstração local: não envia mensagens para servidores nem coleta dados remotamente.
+     Consulte orientações de economia de água da
+     <a href="https://www.sabesp.com.br/a-sabesp/educacao/dicas-economia-agua" rel="noopener noreferrer" target="_blank">
+      Sabesp (abre em nova aba)
+     </a>
+     .
     </p>
-    <form id="form-contato">
-     <div class="campo">
-      <label for="nome">
-       Nome
-      </label>
-      <input autocomplete="name" id="nome" maxlength="80" name="nome" required=""/>
-     </div>
-     <div class="campo">
-      <label for="email">
-       E-mail
-      </label>
-      <input autocomplete="email" id="email" maxlength="120" name="email" required="" type="email"/>
-     </div>
-     <div class="campo">
-      <label for="mensagem">
-       Mensagem
-      </label>
-      <textarea id="mensagem" maxlength="1500" minlength="10" name="mensagem" required="" rows="5"></textarea>
-     </div>
-     <button type="submit">
-      Validar mensagem
-     </button>
-     <p aria-live="polite" id="retorno-contato" role="status">
-     </p>
-    </form>
    </section>
-   <script defer="" src="contato.js">
-   </script>
   </main>
   <footer>
    <div class="interior">
