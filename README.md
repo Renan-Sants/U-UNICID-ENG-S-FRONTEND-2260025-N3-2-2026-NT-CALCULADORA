@@ -29,8 +29,8 @@ Parâmetros aproximados do cálculo conforme `rule/01-conteudo.md` (referência 
 - Configurar serviço de envio caso o formulário de Contato precise enviar mensagens reais.
 - Testar manualmente em navegador, celular, teclado e leitor de tela.
 - Configurar a hospedagem para responder com `404.html` em URLs inexistentes; a presença do arquivo não configura o servidor.
-- Confirmar que o endereço publicado no README original continua correto após o deploy: [[u-unicid-eng-s-frontend-2260025-n3-2-2026-nt-productio-0ae870d9.up.railway.app
-](https://renan-sants.github.io/U-UNICID-ENG-S-FRONTEND-2260025-N3-2-2026-NT-CALCULADORA/?utm_source=chatgpt.com)](https://renan-sants.github.io/U-UNICID-ENG-S-FRONTEND-2260025-N3-2-2026-NT-CALCULADORA/index.html)
+- Confirmar que o endereço publicado no README original continua correto após o deploy: https://u-unicid-eng-s-frontend-2260025-n3-2-2026-nt-cal-production.up.railway.app/index.html
+
 ## Regras
 
 Leia [`rule/README.md`](rule/README.md) antes de editar ou publicar.
