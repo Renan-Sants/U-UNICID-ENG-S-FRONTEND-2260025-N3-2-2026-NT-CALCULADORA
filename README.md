@@ -29,7 +29,7 @@ Parâmetros aproximados do cálculo conforme `rule/01-conteudo.md` (referência 
 - Configurar serviço de envio caso o formulário de Contato precise enviar mensagens reais.
 - Testar manualmente em navegador, celular, teclado e leitor de tela.
 - Configurar a hospedagem para responder com `404.html` em URLs inexistentes; a presença do arquivo não configura o servidor.
-- Confirmar que o endereço publicado no README original continua correto após o deploy: https://u-unicid-eng-s-frontend-2260025-n3-2-2026-nt-cal-production.up.railway.app/index.html
+- Confirmar que o endereço publicado no README original continua correto após o deploy: https://calculadoradeagua1.vercel.app/resultado.html
 
 ## Regras
 
